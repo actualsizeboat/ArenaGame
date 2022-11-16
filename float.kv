@@ -209,9 +209,9 @@
             background_color: (.5, .5, .5, .8)
             size_hint: .1, .1
             on_release:
-                # Factory.Infopop().open()
-                app.root.current = "results"
-                root.manager.transition.direction = "left"
+                Factory.Infopop().open()
+                # app.root.current = "results"
+                # root.manager.transition.direction = "left"
             Image:
                 source: 'info.png'
                 center: self.parent.center
